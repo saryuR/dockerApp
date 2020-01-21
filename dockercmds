@@ -1,5 +1,5 @@
-docker build --rm -t test-application:latest .
-docker run --rm -d -p 90:80/tcp test-application:latest
+sudo docker build --rm -t test-application:latest .
+sudo docker run --rm -d -p 90:80/tcp test-application:latest
 sudo docker-compose up
 
 
